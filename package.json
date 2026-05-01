@@ -1,0 +1,31 @@
+{
+  "name": "cursor-aps-adapter",
+  "version": "0.1.0",
+  "description": "Cursor Hooks → APS attestation receipts. Reference adapter.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "example": "tsx examples/basic-integration.ts"
+  },
+  "license": "Apache-2.0",
+  "author": "AEOESS",
+  "repository": "github:aeoess/cursor-aps-adapter",
+  "dependencies": {
+    "agent-passport-system": "2.5.0-alpha"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

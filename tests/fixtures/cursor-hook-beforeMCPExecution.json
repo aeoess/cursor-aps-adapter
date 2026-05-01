@@ -1,0 +1,13 @@
+{
+  "conversation_id": "conv_01HX5K2P3QRSTUVWXYZ123ABC",
+  "generation_id": "gen_01HX5K2P3QRSTUVWXYZ987XYZ",
+  "model": "claude-opus-4-7",
+  "hook_event_name": "beforeMCPExecution",
+  "cursor_version": "0.45.6",
+  "workspace_roots": ["/Users/example/projects/demo"],
+  "user_email": "developer@example.com",
+  "transcript_path": null,
+  "tool_name": "search_files",
+  "tool_input": "{\"query\":\"TODO\",\"path\":\"src/\"}",
+  "command": "npx some-mcp-server"
+}

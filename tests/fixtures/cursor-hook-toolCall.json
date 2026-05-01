@@ -1,0 +1,18 @@
+{
+  "conversation_id": "conv_01HX5K2P3QRSTUVWXYZ123ABC",
+  "generation_id": "gen_01HX5K2P3QRSTUVWXYZTOOL00",
+  "model": "claude-opus-4-7",
+  "hook_event_name": "preToolUse",
+  "cursor_version": "0.45.6",
+  "workspace_roots": ["/Users/example/projects/demo"],
+  "user_email": "developer@example.com",
+  "transcript_path": null,
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "/Users/example/projects/demo/src/feature.ts",
+    "content": "export const feature = () => 'ok'\n"
+  },
+  "tool_use_id": "use_01HX5K2P3QRSWriteCallID01",
+  "cwd": "/Users/example/projects/demo",
+  "agent_message": "Adding the requested feature module."
+}
