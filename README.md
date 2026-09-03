@@ -1,3 +1,5 @@
+> Archived 2026-09-02. Built against agent-passport-system 2.5.0-alpha and draft -00; superseded. Current adapters live with the SDK.
+
 # cursor-aps-adapter
 
 [![license](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
